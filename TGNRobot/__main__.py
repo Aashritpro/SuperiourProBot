@@ -76,23 +76,23 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 ʜᴏɪ, ɪ ᴍ [𝐒𝐮𝐩𝐞𝐫𝐢𝐨𝐮𝐫 𝐏𝐫𝐨 𝐁𝐨𝐭]
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! ʜɪᴛ` /help
- [❤](https://telegra.ph/file/7dc6fc82f97b90bb0a2ef.jpg)
+ [❤](https://telegra.ph/file/4c71b5d2a577528b030d2.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ➣𝐒𝐮𝐩𝐞𝐫𝐢𝐨𝐮𝐫 𝐏𝐫𝐨 𝐁𝐨𝐭➣ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/Superiour_Pro_Bot?startgroup=true"),
+            text="ᴀᴅᴅ ➣𝐒𝐮𝐩𝐞𝐫𝐢𝐨𝐮𝐫 𝐏𝐫𝐨 𝐁𝐨𝐭➣ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/Yourdad1_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="𝐒𝐨𝐮𝐫𝐜𝐞 💫", url=f"https://github.com/Sumit9969/SuperiourProBot"),
         InlineKeyboardButton(
-            text="𝗢𝘄𝗻𝗲𝗿", url=f"https://t.me/Cute_Shezhadi012"
+            text="𝗢𝘄𝗻𝗲𝗿", url=f"https://t.me/d3s7Roy3R_EM4E4OR"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩", url=f"https://t.me/World_FriendShip_Zone"
+            text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩", url=f"https://t.me/girls_boys_chatting12"
         ),
     ],
     [
@@ -103,12 +103,12 @@ buttons = [
 
 HELP_STRINGS = """
 `ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ..`
-ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [❤️](https://telegra.ph/file/7dc6fc82f97b90bb0a2ef.jpg)"""
+ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [❤️](https://telegra.ph/file/4c71b5d2a577528b030d2.jpg)"""
 
-START_IMG = "https://telegra.ph/file/7dc6fc82f97b90bb0a2ef.jpg"
+START_IMG = "https://telegra.ph/file/4c71b5d2a577528b030d2.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [](t.me/World_FriendShip_Zone) \
+ You can support the project [](t.me/girls_boys_chatting12) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
@@ -357,7 +357,7 @@ def zaid_about_callback(update, context):
     query = update.callback_query
     if query.data == "zaid_":
         query.message.edit_text(
-            text=""" ℹ️ I am [【♡➣𝐒𝐞𝐧𝐨𝐫𝐢𝐭𝐚𝐏𝐫𝐨𝐁𝐨𝐭➣♡】](t.me/Superiour_Pro_Bot), a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I am [【♡➣𝐒𝐞𝐧𝐨𝐫𝐢𝐭𝐚𝐏𝐫𝐨𝐁𝐨𝐭➣♡】](t.me/Yourdad1_bot), a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
