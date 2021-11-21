@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴏɪ, ɪ ᴍ [𝐒𝐮𝐩𝐞𝐫𝐢𝐨𝐮𝐫 𝐏𝐫𝐨 𝐁𝐨𝐭]
+ʜᴏɪ, ɪ ᴍ [【🇮🇳♡➣𝐁𝐈𝐋𝐋𝐀 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓➣♡🇮🇳】]
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! ʜɪᴛ` /help
  [❤](https://telegra.ph/file/4c71b5d2a577528b030d2.jpg)
 """
@@ -222,7 +222,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_video(
-            START_IMG, caption= "<code>【♡➣𝐒𝐞𝐧𝐨𝐫𝐢𝐭𝐚𝐏𝐫𝐨𝐁𝐨𝐭➣♡】 is Here For You❤\nI am Awake Since</code>: <code>{}</code>".format(
+            START_IMG, caption= "<code>【🇮🇳♡➣𝐁𝐈𝐋𝐋𝐀 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓➣♡🇮🇳】 is Here For You❤\nI am Awake Since</code>: <code>{}</code>".format(
                 uptime            
             ),
             parse_mode=ParseMode.HTML,
@@ -357,15 +357,15 @@ def zaid_about_callback(update, context):
     query = update.callback_query
     if query.data == "zaid_":
         query.message.edit_text(
-            text=""" ℹ️ I am [【♡➣𝐒𝐞𝐧𝐨𝐫𝐢𝐭𝐚𝐏𝐫𝐨𝐁𝐨𝐭➣♡】](t.me/Yourdad1_bot), a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I am [【🇮🇳♡➣𝐁𝐈𝐋𝐋𝐀 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓➣♡🇮🇳】](t.me/Yourdad1_bot), a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_【♡➣𝐒𝐞𝐧𝐨𝐫𝐢𝐭𝐚𝐏𝐫𝐨𝐁𝐨𝐭➣♡】licensed under the GNU General Public License v3.0_
-                 \n❍ Assistant @Superiour_Pro_Bot\_Assistant.
+                 \n\n_【🇮🇳♡➣𝐁𝐈𝐋𝐋𝐀 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓➣♡🇮🇳】licensed under the GNU General Public License v3.0_
+                 \n❍ Assistant @billa_assistant_1\_Assistant.
                  \nHere is the [💾Repository](https://github.com/rakeshyt/TrishaManager).
                  \n\nIf you have any question about bot, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
@@ -393,7 +393,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I am [♡➣𝐒𝐞𝐧𝐨𝐫𝐢𝐭𝐚𝐏𝐫𝐨𝐁𝐨𝐭➣♡](t.me/Superiour_Pro_Bot)
+            text=""" Hi..🤗 I am 【🇮🇳♡➣𝐁𝐈𝐋𝐋𝐀 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓➣♡🇮🇳】(t.me/billa_assistant_1)
                  \nHere is the [Source Code](https://github.com/Sumit9969/SuperiourProBot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
